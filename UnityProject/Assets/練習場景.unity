@@ -183,6 +183,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 90077755}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &90077757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90077756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3791884a7d1b3d2499059c274750a5fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 50
+  atk: 0
+  aud: {fileID: 90077758}
+  soundatk: {fileID: 8300000, guid: b2814898b8005b04dbb2fadf2cf26112, type: 3}
+  player: {fileID: 1284488706}
 --- !u!82 &90077758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -433,6 +450,23 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1284488704}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1284488706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284488705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1d19ca2a55c9a14ba4673565bf571ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 100
+  atk: 0
+  aud: {fileID: 1284488707}
+  soundatk: {fileID: 8300000, guid: e5596bb1fd662e5418d0d33c355a4478, type: 3}
+  zombie: {fileID: 90077757}
 --- !u!82 &1284488707
 AudioSource:
   m_ObjectHideFlags: 0
